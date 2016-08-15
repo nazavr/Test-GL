@@ -1,0 +1,106 @@
+body{
+	font-size: 12px;
+	font-family:"Arial", Arial, sans-serif;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	height: 100%;
+	position: absolute;
+	margin: 0px;
+}
+
+.menu__button:hover {
+	background-color: #48D1CC;
+	color: #FFFFFF;
+}
+.menu__button{
+	border: 1px solid #48D1CC;
+	background-color: #FFFFFF;
+	width: 170px;
+	height: 20px;
+	color: #48D1CC;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	cursor:pointer;
+	-webkit-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	-o-transition: 0.5s ease-out;
+	transition: 0.5s ease-out;
+}
+
+
+.menu__wrap ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.menu__wrap li {
+	list-style: none;
+	position: relative;
+}
+
+li {
+	vertical-align: middle;
+	margin:1px;
+	background-color: #48D1CC;
+	width: 170px;
+	-webkit-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	-o-transition: 0.5s ease-out;
+	transition: 0.5s ease-out;
+}
+
+li:hover {
+   background-color: #48b3d1;
+}
+
+
+.menu__wrap a {
+	color: #FFFFFF;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+	height: 100%;
+	position: relative;
+	padding: 15px 10px;
+}
+
+
+.arrow-wrap {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	height: 100%;
+}
+
+.arrow  {
+	display: block;
+	padding-top: 14px;
+	padding-right: 5px;
+}
+
+li .subMenu {
+	display: block;
+	position: absolute;
+	left: 171px;
+	top: -1px;
+}
+
+.hidden{
+	display: none;
+}
+
+.menu__button-disabled{
+    border: 1px solid #d6d6d6;
+    background-color: #e5e6e6;
+    width: 170px;
+    height: 20px;
+    color: #9ca09f;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	cursor:pointer;
+	-webkit-transition: 0.5s ease-out;
+	-moz-transition: 0.5s ease-out;
+	-o-transition: 0.5s ease-out;
+	transition: 0.5s ease-out;
+}
