@@ -1,8 +1,7 @@
 (function () {
 
     function getMenuData(){
-        //get ather method for get json
-        //at now json load from js/menu-data.js
+        //json load from js/menu-data.js
         var menuData = menu.menu;
         return menuData;
     }
@@ -90,8 +89,6 @@
         }
     }
 
-
-
     function generateMenu(data, el) {
         for (var i = 0; i < data.length; i++) {
 
@@ -127,7 +124,7 @@
                 };
 
                 openSubMenu(menuLink,properties);
-            }else{
+            } else {
                 menuElement.appendChild(menuLink);
             }
         }
